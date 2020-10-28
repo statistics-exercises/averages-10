@@ -10,7 +10,7 @@ This distribution function is a funciton of two parameters and we can derive the
 
 Furthermore, we have also established that we can estimate the sample mean and the second central moment about the mean (the variance) by sampling the random variable ![](https://render.githubusercontent.com/render/math?math=X_i) multiple times and then using:
 
-![](https://render.githubusercontent.com/render/math?math=\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_i\qquad\widehat{\mu_2=\frac{1}{n}\sum_{i=1}^{n}(X_i-\overline{X})^2)
+![](https://render.githubusercontent.com/render/math?math=\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_i\qquad\widehat{\mu_2}=\frac{1}{n}\sum_{i=1}^{n}(X_i-\overline{X})^2)
 
 __Your task in this exercise is to use the method of moments to derive estimators for the parameters of a negative binomial.  You should then write a program to plot how the values of these estimators change as the number of samples they are computed from increases just as you did for the Bernoulli, geometric and binomial random variables.__
 
